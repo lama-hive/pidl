@@ -1,0 +1,19 @@
+{
+  "name": "hluchjak/pidl",
+  "description": "Pineapple Database Layer",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Jakub Hluchý",
+      "email": "hluchjak@outlook.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.2",
+    "ext-pdo": "*",
+    "vlucas/phpdotenv": "^5.4"
+  },
+  "autoload": {
+    "psr-4": {"Lamahive\\Pidl\\": "src/"}
+  }
+}
